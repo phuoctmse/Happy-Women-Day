@@ -29,6 +29,7 @@ function submitName() {
 
     if (!name) {
         alert('Vui lòng nhập tên của bạn!');
+        $('#nameModal').modal('show'); // Show modal if input is empty
         return;
     }
 
